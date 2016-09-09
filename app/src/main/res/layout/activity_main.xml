@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.asiatravel.learnprogressbar.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.asiatravel.learnprogressbar.view.HorizontalProgressbarWithProgress
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:progress="10"
+            app:progress_reach_color="#fdb330"
+            app:progress_reach_height="6dp"
+            app:progress_text_color="#666666"
+            app:progress_unreach_color="#0f0"
+            app:progress_unreach_height="5dp" />
+
+        <com.example.asiatravel.learnprogressbar.view.HorizontalProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:progress="20"
+            app:progress_reach_color="#55bfb7"
+            app:progress_reach_height="6dp"
+            app:progress_text_color="#f00"
+            app:progress_unreach_color="#fd7530"
+            app:progress_unreach_height="5dp" />
+
+        <com.example.asiatravel.learnprogressbar.view.HorizontalProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="20dp"
+            android:progress="50"
+            app:progress_reach_color="#f00"
+            app:progress_reach_height="6dp"
+            app:progress_text_color="#666666"
+            app:progress_unreach_color="#0f0"
+            app:progress_unreach_height="5dp" />
+
+        <com.example.asiatravel.learnprogressbar.view.HorizontalProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="20dp"
+            android:progress="30"
+            app:progress_reach_color="#ff00ff"
+            app:progress_reach_height="6dp"
+            app:progress_unreach_color="#0ff"
+            app:progress_unreach_height="5dp" />
+
+        <com.example.asiatravel.learnprogressbar.view.RoundProgressbarWithProgress
+            android:id="@+id/round_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="20dp"
+            android:progress="10"
+            app:progress_reach_color="#f00"
+            app:progress_reach_height="5dp"
+            app:progress_text_color="#666666"
+            app:progress_text_size="16sp"
+            app:progress_unreach_color="#0f0"
+            app:progress_unreach_height="3dp" />
+
+        <com.example.asiatravel.learnprogressbar.view.RoundProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:progress="50"
+            app:progress_reach_color="#ff00ff"
+            app:progress_reach_height="5dp"
+            app:progress_unreach_color="#0ff"
+            app:progress_unreach_height="3dp"
+            app:radius="30dp" />
+
+
+    </LinearLayout>
+</ScrollView>
