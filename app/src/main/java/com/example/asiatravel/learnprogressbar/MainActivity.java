@@ -11,6 +11,7 @@ import com.example.asiatravel.learnprogressbar.view.RoundProgressbarWithProgress
 public class MainActivity extends AppCompatActivity {
 
     private static final int HORIZONTAL_WHAT = 0;
+
     private HorizontalProgressbarWithProgress progressBar;
     private RoundProgressbarWithProgress roundProgressBar;
     private Handler mHandler = new Handler() {
@@ -36,4 +37,5 @@ public class MainActivity extends AppCompatActivity {
         roundProgressBar = (RoundProgressbarWithProgress) findViewById(R.id.round_progressBar);
         mHandler.sendEmptyMessage(HORIZONTAL_WHAT);
     }
+
 }
