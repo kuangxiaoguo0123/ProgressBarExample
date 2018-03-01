@@ -1,4 +1,4 @@
-# LearnProgressBar
+# ProgressBarExample
 Android custom horizontal  and circle progressBar
 
 ## Screenshots
